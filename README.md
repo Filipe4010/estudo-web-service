@@ -24,3 +24,15 @@ soap:encodingStyle="http://www.w3.org/2003/05/soap-encoding">
 </soap:Envelope>
 
 # WSDL & XSD USANDO O PROGRAMA SOAP UI
+
+TESTE USANDO SOAP UI http://soapclient.com/xml/soapresponder.wsdl
+
+RETORNO: 
+
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tns="http://www.SoapClient.com/xml/SoapResponder.wsdl" xmlns:xsd1="http://www.SoapClient.com/xml/SoapResponder.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+   <SOAP-ENV:Body>
+      <mns:Method1Response SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mns="http://www.SoapClient.com/xml/SoapResponder.xsd">
+         <bstrReturn xsi:type="xsd:string">Your input parameters are TESTE1 and TESTE2</bstrReturn>
+      </mns:Method1Response>
+   </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
